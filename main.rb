@@ -4,7 +4,8 @@ get "/" do
 	
 end
 
-get "/about" do
-
+get "/contact" do
+	erb :contact
 end
+
 
