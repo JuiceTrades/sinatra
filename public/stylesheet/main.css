@@ -1,3 +1,15 @@
+/*colors*/
+/*fonts*/
+/*<link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Cutive+Mono|Fredericka+the+Great|Iceberg|Kumar+One+Outline|Love+Ya+Like+A+Sister|Miriam+Libre|Pompiere|Press+Start+2P" rel="stylesheet">*/
+.homecontainer {
+  margin-top: 100px;
+  font-family: "Pompiere"; }
+  .homecontainer .design {
+    font-family: "Fredericka the Great"; }
+
+/*colors*/
+/*fonts*/
+/*<link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Cutive+Mono|Fredericka+the+Great|Iceberg|Kumar+One+Outline|Love+Ya+Like+A+Sister|Miriam+Libre|Pompiere|Press+Start+2P" rel="stylesheet">*/
 .footer {
   background-color: #1b1b1b;
   background-image: -moz-linear-gradient(top, #222222, #111111);
