@@ -175,14 +175,34 @@ i {
 /*parralax CSS*/
 .parallax { 
     /* The image used */
-    background-image: url("images/contact.jpg");
+    background-image: url("../images/contact2.jpg");
 
     /* Set a specific height */
-    height: 350px; 
+    height: 470px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
+  
+}
+
+/*contact page styling*/
+.contact-us {
+  padding: 185px 0px 0px 600px;
+  font-family: 'Gudea', sans-serif;
+  font-size: 45px;
+  color: black;
+}
+.contact-p{
+  color: black;
+  font-size: 17px;
+  padding-left: 30%;
+  width: 1000px;
+  text-align: center;
+}
+
+.customer {
+  margin-right: 200px;
 }

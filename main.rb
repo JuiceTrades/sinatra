@@ -9,3 +9,6 @@ get "/contact" do
 end
 
 
+get '/contact-form' do
+  erb :contact_form
+end
