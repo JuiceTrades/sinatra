@@ -1,0 +1,11 @@
+/*"https://fonts.googleapis.com/css?family=Bungee+Hairline|Cutive+Mono|Fredericka+the+Great|Iceberg|Kumar+One+Outline|Love+Ya+Like+A+Sister|Miriam+Libre|Pompiere|Press+Start+2P"*/
+div {
+  /*border:1px $color1 dashed;*/
+  height: 500px; }
+  div h1 {
+    font-family: "Love Ya Like A Sister";
+    color: green;
+    font-size: 55;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

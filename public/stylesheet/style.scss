@@ -1,0 +1,20 @@
+$color1: black;
+$color2: red;
+$color3: green;
+$color4: yellow;
+
+$font: 'Love Ya Like A Sister';
+
+/*"https://fonts.googleapis.com/css?family=Bungee+Hairline|Cutive+Mono|Fredericka+the+Great|Iceberg|Kumar+One+Outline|Love+Ya+Like+A+Sister|Miriam+Libre|Pompiere|Press+Start+2P"*/
+
+div{
+	/*border:1px $color1 dashed;*/
+	height:500px;
+	h1{
+		font-family: $font;
+		color: $color3;
+		font-size:55;
+		text-align:center;
+
+	}
+}
