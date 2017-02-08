@@ -1,9 +1,5 @@
 require "sinatra"
 
-get "/" do
-	erb :index
-end
-
 get "/home" do
 	erb :home
 end
@@ -14,7 +10,6 @@ end
 
 get "/about" do
 	erb :about
-<<<<<<< HEAD
 end
 
 get "/contact" do
@@ -65,18 +60,11 @@ end
 get '/project10' do     
 	"project10"
 end
-=======
->>>>>>> master
 
 get '/project11' do     
 	"project11"
 end
 
-<<<<<<< HEAD
 get '/project12' do     
 	"project12"
-=======
-get "/home" do
-	erb :home
->>>>>>> master
 end
