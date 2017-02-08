@@ -79,3 +79,7 @@ section.module.parallax-3 {
     font-size: 160px;
   }
 }
+.p-heading{
+  padding-top:40px;
+  padding-bottom:40px;
+}
