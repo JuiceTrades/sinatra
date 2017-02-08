@@ -1,0 +1,63 @@
+@import 'variables';
+@import 'animate';
+@import 'spinny';
+
+.homecontainer{
+	margin-top: 50px;
+	margin-bottom:100px;
+	text-align:center;
+	display:block;
+	font-size:200%;
+
+	.slash{
+		font-size:100%;
+		font-family: $font2;
+		color: $color2;
+
+	}
+	.div{
+		font-size:200%;
+		font-family: $font2;
+		color: $color3;
+	}
+
+	.ination{
+		font-family: $font1;
+		color: $color3;
+
+	.de{
+		font-family: $font1;
+	}
+
+	}
+		.sign{
+			color: $color3;
+			font-size:100%;
+			font-family: $font1;
+		}
+	
+	
+
+}
+.row2{
+	height:500px;
+	border: 1px dashed black;
+
+
+	.spinny{
+		//font-size:200%;
+		margin-left:400px;
+		margin-top:100px;
+		position: relative;
+		//animation-name: spin;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		height:100px;
+		width: 100px;
+		//background-color:red;
+		border-radius:100%;
+		border:5px dashed $color2;
+		color: $color2;
+	}
+}
