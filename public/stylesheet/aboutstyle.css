@@ -42,19 +42,19 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px white;
 }
 section.module.parallax-1 {
-  background-image: url("assets/images/codepic.png");
+  background-image: url("../assets/images/codepic.png");
   background-position: center;
 
     background-size: cover;
 }
 section.module.parallax-2 {
-  background-image: url("assets/images/sun.png");
+  background-image: url("../assets/images/sun.png");
   background-position: center;
 
     background-size: cover;
 }
 section.module.parallax-3 {
-  background-image: url("assets/images/macintosh.jpg");
+  background-image: url("../assets/images/macintosh.jpg");
   background-position: center;
 
     background-size: cover;
