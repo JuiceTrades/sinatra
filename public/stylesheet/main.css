@@ -203,6 +203,46 @@ i {
   text-align: center;
 }
 
+/*customer support*/
+
 .customer {
-  margin-right: 200px;
+  position: relative;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.customer-p{
+  width: 250px;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: -15px;
+}
+.support{
+  margin-left: 10px;
+}
+.button2{
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*start a website*/
+
+.sales {
+  position: relative;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.start{
+  margin-left: 15px;
+}
+.sales-p {
+  margin-left: -30px;
+  width: 250px;
+  text-align: center;
+  padding-top: 10px;
+}
+.button1{
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
