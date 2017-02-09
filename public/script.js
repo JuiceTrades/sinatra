@@ -65,6 +65,8 @@ document.addEventListener('DOMContentLoaded',function(event){
 
 
 $(document).ready(function(){
+	$('#page_effect').fadeIn('3000');
+
 	$('h1').hover(function(){
 		$(this).fadeOut(100);
 		$(this).fadeIn(500);
