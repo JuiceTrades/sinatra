@@ -64,7 +64,7 @@ post '/contact_form' do
 
 	from = Email.new(email: email_add)
 	to = Email.new(email: 'domitrius.anthony@hotmail.com')
-	subject = Subject.new(email_subject)
+	subject = "This is the subject"
 	content = Content.new(type: 'text/plain', value: body_content)
 	mail = Mail.new(from, subject, to, content)
 
