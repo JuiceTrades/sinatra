@@ -65,7 +65,7 @@ post '/contact_form' do
 	from = Email.new(email: email_add)
 	to = Email.new(email: 'domitrius.anthony@hotmail.com')
 	subject = "This is the subject"
-	content = Content.new(type: 'text/plain', value: body_content)
+	content = Content.new(type: 'text/plain', value: body)
 	mail = Mail.new(from, subject, to, content)
 
 	sg = SendGrid::API.new(api_key: ENV['SENDGRID_API_KEY'])
@@ -77,4 +77,24 @@ post '/contact_form' do
 
 end
 
+post '/customer_form' do
+
+	your_name = params["name"]
+	email_address = params["email"]
+	body_message = params["message"]
+
+
+	from = Email.new(email: email_address)
+	to = Email.new(email: 'domitrius.anthony@hotmail.com')
+	subject = "This is the subject"
+	content = Content.new(type: 'text/plain', value: body_message )
+	mail = Mail.new(from, subject, to, content)
+
+	sg = SendGrid::API.new(api_key: ENV['SENDGRID_API_KEY'])
+	response = sg.client.mail._('send').post(request_body: mail.to_json)
+	puts response.status_code
+	puts response.body
+	puts response.headers
+
+end
 
