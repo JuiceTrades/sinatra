@@ -74,6 +74,7 @@ post '/contact_form' do
 	puts response.body
 	puts response.headers
 
+	redirect "/contact"
 
 end
 
@@ -95,6 +96,8 @@ post '/customer_form' do
 	puts response.status_code
 	puts response.body
 	puts response.headers
+
+	redirect "/contact"
 
 end
 
